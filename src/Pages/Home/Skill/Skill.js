@@ -4,7 +4,7 @@ const Skill = () => {
     return (
         <div className='container mx-auto'>
             <h2 className="text-3xl font-semibold text-center divider mb-16">Professional Skill </h2>
-            <div className="grid grid-cols-2 gap-24">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-24">
                 <div className='grid grid-cols-1 gap-4 p-6 shadow-2xl rounded-2xl'>
                     <h2 className="text-2xl font-semibold text-center">
                         Front-end Development
