@@ -4,15 +4,16 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const menuItems = <>
-        <li className='font-semibold'><Link to='/'>Home </Link> </li>
-        <li className='font-semibold'><Link to='/contact'>Contact </Link> </li>
-        <li className='font-semibold'><Link to='/blogs'>Blogs </Link> </li>
+        <li className='font-semibold lg:mr-6'><Link to='/'>Home </Link> </li>
+        <li className='font-semibold lg:mr-6'><Link to='/aboutMe'>About Me </Link> </li>
+        <li className='font-semibold lg:mr-6'><Link to='/contact'>Contact </Link> </li>
+        <li className='font-semibold lg:mr-6'><Link to='/blogs'>Blogs </Link> </li>
     </>
 
 
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar flex justify-between bg-base-100 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,15 +26,19 @@ const Navbar = () => {
                     <Link className="btn btn-ghost normal-case text-xl" to='/'> Maruf's Portfolio</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal p-0">
+                    <ul className="menu menu-horizontal text-xl  px-10">
                         {menuItems}
                     </ul>
                 </div>
-                <div className="navbar-end rounded-full">
+                {/* <div className="navbar-end rounded-full">
                     <div className="w-10 h-10 rounded-full">
                         <img src="https://placeimg.com/80/80/people" alt='' />
                     </div>
-                </div>
+
+                    <a href="Front-end-resume-single.pdf" download="Maruf's Resume" >
+                        <button className="btn btn-outline btn-primary rounded-full px-8 lg:mr-16 ">Download Resume</button>
+                    </a>
+                </div> */}
             </div>
         </div>
     );

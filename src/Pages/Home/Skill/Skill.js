@@ -3,14 +3,17 @@ import React from 'react';
 const Skill = () => {
     return (
         <div className='container mx-auto'>
-            <h2 className="text-3xl font-semibold text-center divider mb-16">Professional Skill </h2>
+            <h2 className="text-3xl font-semibold text-center divider uppercase mb-16">Professional Skill </h2>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-24">
-                <div className='grid grid-cols-1 gap-4 p-6 shadow-2xl rounded-2xl'>
+                <div className='grid grid-cols-1 gap-4 p-6 lg:shadow-2xl shadow-lg rounded-2xl'>
                     <h2 className="text-2xl font-semibold text-center">
                         Front-end Development
                     </h2>
                     <div>
-                        <h4 className="text-2xl font-semibold">HTML5</h4>
+                        <div className='flex justify-between'>
+                            <h4 className="text-2xl font-semibold">HTML5</h4>
+                            <h6 className="text-lg text-blue-700">98%</h6>
+                        </div>
                         <progress className="progress progress-primary w-full" value="98" max="100"></progress>
                     </div>
                     <div>
@@ -35,7 +38,7 @@ const Skill = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-1 gap-4 p-6 shadow-2xl rounded-2xl'>
+                <div className='grid grid-cols-1 gap-4 p-6 lg:shadow-2xl shadow-lg rounded-2xl'>
                     <h2 className="text-2xl font-semibold  text-center">
                         Back-end Development
                     </h2>
