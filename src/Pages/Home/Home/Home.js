@@ -1,18 +1,21 @@
 import React from 'react';
-import Contact from '../../Contact/Contact';
+import ContactWithMe from '../../Contact/ContactWithMe';
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
+import ProgressBarWithTooltip from '../Skill/ProgressBar';
 import Skill from '../Skill/Skill';
 import TopHomeBanner from '../TopHomeBanner/TopHomeBanner';
+import WhatIDo from '../WhatIDo/WhatIDo';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='text-white'>
             <TopHomeBanner></TopHomeBanner>
-            <Skill></Skill>
+            <WhatIDo></WhatIDo>
             <Projects></Projects>
+            <Skill></Skill>
             <AboutMe></AboutMe>
-            <Contact></Contact>
+            <ContactWithMe></ContactWithMe>
         </div>
     );
 };

@@ -1,7 +1,8 @@
 [
     {
+        "id" : 1,
         "name" : "Bikroy Bazar",
-        "image": "https.messiiiiii",
+        "bgImage": "https://i.ibb.co/6wtCSs4/bikroy-bazar-home.png",
         "liveLink" : "https://bikroy-bazar-8754e.web.app",
         "clientSide" : "https://github.com/maruf21hossain/bikroy-bazar-client",
         "serverSide" : "https://github.com/maruf21hossain/bikroy-bazar-server"

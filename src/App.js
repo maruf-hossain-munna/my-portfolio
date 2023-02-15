@@ -4,7 +4,7 @@ import routes from './Pages/Route/Routes/Routes';
 
 function App() {
   return (
-    <div >
+    <div className='bg'>
       <RouterProvider router={routes}></RouterProvider>
     </div>
   );

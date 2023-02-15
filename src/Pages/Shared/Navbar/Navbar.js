@@ -1,19 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
 
     const menuItems = <>
         <li className='font-semibold lg:mr-6'><Link to='/'>Home </Link> </li>
-        <li className='font-semibold lg:mr-6'><Link to='/aboutMe'>About Me </Link> </li>
-        <li className='font-semibold lg:mr-6'><Link to='/contact'>Contact </Link> </li>
-        <li className='font-semibold lg:mr-6'><Link to='/blogs'>Blogs </Link> </li>
+        <li className='font-semibold lg:mr-6'>
+            <HashLink smooth to="/#skills"> Skills </HashLink>
+        </li>
+        <li className='font-semibold lg:mr-6'>
+            <HashLink smooth to="/#projects"> Projects </HashLink>
+        </li>
+        <li className='font-semibold lg:mr-6'>
+            <HashLink smooth to="/#about"> About Me  </HashLink>
+        </li>
+        <li className='font-semibold lg:mr-6'>
+            <HashLink smooth to="/#contact"> Contact </HashLink>
+        </li>
     </>
 
 
     return (
         <div>
-            <div className="navbar flex justify-between bg-base-100 mx-auto">
+            <div className="navbar flex justify-between bg-base-100 mx-auto text-white fixed">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

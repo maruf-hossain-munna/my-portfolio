@@ -1,23 +1,22 @@
 import React from 'react';
-import myImg from '../../../Assests/Images/image-1.jpg';
+import myImg from '../../../Assests/Images/maruf-professional.jpeg';
 
 const AboutMe = () => {
     return (
-        <div className='container mx-auto'>
-            <h2 className="text-3xl font-semibold text-center uppercase divider">
-                About me
-            </h2>
+        <div id='about' className='container mx-auto mt-12'>
 
-            <div className="hero py-12">
+            <h2 className="lg:text-5xl text-3xl text-pink-600 font-semibold text-center font-serif my-0">About Me </h2>
+
+            <div className="hero py-8">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className='lg:w-1/2'>
                         <img src={myImg} alt=''
-                         className="max-w-sm mx-auto rounded-lg shadow-xl" />
+                         className="max-w-sm w-full mx-auto rounded-lg shadow-xl" />
                     </div>
                     <div className='lg:w-1/2 lg:mt-0 mt-10'>
                         <h1 className="lg:text-4xl text-2xl mb-2 font-bold"> I'm Maruf Hossain Munna </h1>
-                        <p className='text-xl font-semibold'>From <span className='text-blue-700'>Noakhali, Bangladesh</span></p>
-                        <p className="text-xl py-5">
+                        <p className='text-xl font-semibold'>From <span className='text-pink-600'>Noakhali, Bangladesh</span></p>
+                        <p className="text-xl lg:pt-5">
                             I'm currently working with MERN Stack Development.
                             I have been working with Javascript & it's library React js for 8 months.
                             I have also a little knowledge with node js, Express js, jwt, mongodb for backend development.

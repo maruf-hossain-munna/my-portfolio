@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-pdf": "^6.2.0",
     "react-router-dom": "^6.4.4",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "react-text-animations": "^1.1.10",
