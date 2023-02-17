@@ -18,12 +18,13 @@
     background-position: top;
     transition: ease-in-out 5s;
 }
-.title-div{
+
+/* .title-div{
     display: hidden;
 }
 .title-div:hover{
     visibility: visible;
-}
+} */
 
 .potfolio-box-1{
     background-image: url(https://i.ibb.co/6wtCSs4/bikroy-bazar-home.png);
@@ -38,6 +39,12 @@
     background-position: bottom;
 }
 
+
+
+.do:hover{
+    transition: ease-in-out 0.8s;
+    transform: scale(1.1);
+}
 
 .svg{
     color: #d81159;

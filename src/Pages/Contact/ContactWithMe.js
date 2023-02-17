@@ -75,7 +75,7 @@ const ContactWithMe = () => {
                             </div>
                             <textarea className="textarea w-full textarea-bordered my-6" placeholder="Message"></textarea>
                             <input type="submit"
-                                className='btn bg-white hover:bg-transparent text-black hover:text-white border-2 border-black hover:border-white w-full'
+                                className='text-lg tracking-wide btn bg-white hover:bg-transparent text-black hover:text-white border-2 border-black hover:border-white w-full'
                                 value="Submit" />
                         </form>
                     </div>
